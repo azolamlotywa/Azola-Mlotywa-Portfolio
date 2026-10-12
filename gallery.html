@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidence | Azola Mlotywa</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .evidence-gallery {
+            max-width: 1150px;
+            margin: 40px auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 25px;
+        }
+
+        .evidence-gallery img {
+            display: block;
+            width: 100%;
+            height: 320px;
+            object-fit: contain;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+        }
+
+        @media (max-width: 650px) {
+            .evidence-gallery {
+                grid-template-columns: 1fr;
+                padding: 15px;
+            }
+
+            .evidence-gallery img {
+                height: auto;
+                max-height: 350px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="header">
+    <a href="index.html" class="logo">
+        <span class="logo-icon">AM</span>
+        <span class="logo-text">
+            <strong>Azola Mlotywa</strong>
+            <small>Tutoring E-Portfolio</small>
+        </span>
+    </a>
+
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="personal.html">Personal Statement</a>
+        <a href="modules.html">Module Details</a>
+        <a href="training.html">Training &amp; Development</a>
+        <a href="delivery.html">Tutorial Delivery</a>
+        <a href="technology.html">Technology</a>
+        <a href="reflections.html">Reflections</a>
+        <a href="gallery.html" class="active">Evidence</a>
+        <a href="feedback.html">Feedback</a>
+    </nav>
+</header>
+
+<main class="gallery-page">
+
+    <div class="evidence-gallery">
+
+        <img src="images/clasroom2.jpeg"
+             alt="Classroom evidence">
+
+        <img src="images/classroom.jpeg"
+             alt="Classroom evidence">
+
+        <img src="images/study-room.jpeg"
+             alt="Study evidence">
+
+        <img src="images/register.jpeg"
+             alt="Register evidence">
+
+        <img src="images/feedback1.jpeg"
+             alt="Student feedback evidence">
+
+        <img src="images/feedback2.jpeg"
+             alt="Student feedback results">
+
+    </div>
+
+    <div class="gallery-navigation">
+        <a href="reflections.html" class="gallery-button">
+            &larr; Previous: Reflections
+        </a>
+
+        <a href="feedback.html" class="gallery-button">
+            Next: Feedback &rarr;
+        </a>
+    </div>
+
+</main>
+
+<footer class="footer">
+    <p>&copy; 2026 Azola Mlotywa | Tutoring E-Portfolio</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
